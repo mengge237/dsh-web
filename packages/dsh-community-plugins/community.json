@@ -1406,5 +1406,16 @@
     "npm": "dsh-claude-style",
     "category": "ui",
     "subcategory": "render"
+  },
+  {
+    "id": "dsh-model-priority",
+    "name": "模型顺序",
+    "nameEn": "Model Priority",
+    "author": "mengge237",
+    "description": "自定义模型 / 提供方的排列顺序：模型设置页里拖拽调整，宿主的模型列表按这份顺序返回（稳定排序、只重排不增删条目）；顺序写回 settings.yaml 前自动备份。",
+    "descriptionEn": "Custom provider/model ordering: drag to reorder on the models settings page and the host model list follows it (stable sort, reorder only). Backs up settings.yaml before writing the order back.",
+    "repo": "https://github.com/mengge237/dsh-model-priority",
+    "category": "tools",
+    "subcategory": "model"
   }
 ]
